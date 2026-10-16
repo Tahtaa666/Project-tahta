@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Streamlit secrets (jangan pernah di-commit)
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
